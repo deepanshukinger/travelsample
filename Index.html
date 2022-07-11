@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Josefin Sans', sans-serif; } <!--Font from Google fonts-->
+
+ .carousel-inner img {
+      width: 100%;
+      height: 90vh;
+  }
+ 
+
+
+
+</style>
+
+
+
+<head>
+  <title>Jaipur Tourist</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="instafeed.js-master/instafeed.min.js"></script>
+  <script src="instafeed.js-master/custom.js"></script>
+  
+<script src="./js/jquery.min.js"></script>
+<script src="./js/instafeed.min.js"></script>
+<script src="./js/magnific.min.js"></script>
+<script src="./js/custom.js"></script>
+  
+</head>
+<body>
+<!--Navbaar-->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Jaipur Tourist</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+    <ul class="navbar-nav ml-auto" >	<!--mr-auto for margin right-->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      
+	  <li class="nav-item">
+        <a class="nav-link" href="#about">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallary">Gallary</a>
+      </li>
+	  
+	  <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!--Bootstrap Carousal-->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/1.jpg" alt="Los Angeles" width="1100" height="500">
+	  <div class="carousel-caption">
+        
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="Images/2.jpg" alt="Chicago" width="1100" height="500">
+	  <div class="carousel-caption">
+        
+      </div> 
+	  
+    </div>
+    <div class="carousel-item">
+      <img src="Images/3.jpg" alt="New York" width="1100" height="500">
+	  <div class="carousel-caption">
+        
+      </div> 
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+
+<!--About Page--->
+<section class="my-5"> <!--Margin-->
+	<div class="py-5">	<!--Padding-->
+		<a name='about'><h1 class="text-center">ABOUT US</h1></a>
+	</div>
+	
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-12">
+				<img src="Images/4.jpg" class="img-fluid aboutimg">
+			</div>
+		
+			<div class="col-lg-6 col-md-6 col-12">
+				  <!--padding + - py-1 to 5-->
+				<h4 class="py-3">Originating from the small town of Jaipur in India, also called the Venice of East, We call ourselves “Padharo” which means “Welcome”. Knitting the flavor of Rajasthan by amalgamating you with our local culture, art and architecture, we are the single concierge platform where you can have all your needs addressed, when you land in a new land amongst new people altogether. </h4>
+			
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<section class="my-5"> <!--Margin-->
+	<div class="py-5">	<!--Padding-->
+		<a name='services'><h1 class="text-center">OUR SERVICES</h1></a>
+	</div>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-12">
+				<div class="card" >
+					<img class="card-img-top" src="Images/6.jpg" alt="nature image">
+						<div class="card-body">
+							<h4 class="card-title">Travel Services</h4>
+							<p class="card-text">A Travel Agency is a private tailer or public service that provide Travel & Tourism related Services to the public on behalf suplieres such as activities...</p>	
+								
+						</div>
+				</div>
+			
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12">
+				<div class="card" >
+					<img class="card-img-top" src="Images/8.jpg" alt="nature image">
+						<div class="card-body">
+							<h4 class="card-title">Hotel Services</h4>
+							<p class="card-text">Typicaly, the basic hotel services include reception guests,Room Services, Food Services & Full Time Security. Full Service Hotel often provide a wide array of guest service and onsite facility.</p>	
+						</div>
+				</div>
+			
+			</div>
+			
+			
+			
+			<div class="col-lg-4 col-md-4 col-12">
+				<div class="card" >
+					<img class="card-img-top" src="Images/10.jpg" alt="nature image">
+						<div class="card-body">
+							<h4 class="card-title">Restaurent Service</h4>
+							<p class="card-text">It provides food and drinks services to guests in hotels and restaurent, showing attentiveness, and understanding of there needs and expectations.</p>		
+								
+						</div>
+				</div>
+			
+			</div>
+			
+		</div>
+	</div>
+	
+</section>
+
+
+
+
+
+<section class="my-5"> <!--Margin-->
+	<div class="py-5">	<!--Padding-->
+		<a name='gallary'><h2 class="text-center">Our Gallary</h2></a>
+	</div>
+
+<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="Images/11.jpg" class="img-fluid pb-3"> <!--pb-3 padding bottom 1to6-->
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="Images/12.jpg" class="img-fluid pb-3"> <!--pb-3 padding bottom 1to6-->
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="Images/16.jpg" class="img-fluid pb-3"> <!--pb-3 padding bottom 1to6-->
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="Images/14.jpg" class="img-fluid pb-3"><!--pb-3 padding bottom 1to6-->
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="Images/18.jpg" class="img-fluid pb-3"> <!--pb-3 padding bottom 1to6-->
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<img src="Images/15.jpg" class="img-fluid pb-3"> <!--pb-3 padding bottom 1to6-->
+			</div>
+			
+		</div>
+	</div>
+</section><!--Gallary end-->
+
+
+<section>
+<div class="container">
+<div id="instafeed-gallery" class="row" ></div>
+</div>
+
+</section>
+
+
+
+<!-------------------->
+
+
+
+
+<!----About div---->
+
+
+<section class="my-5"> <!--Margin-->
+	<div class="py-5">	<!--Padding-->
+	<a name='contact'><h2 class="text-center">Contact</h2></a>
+	</div>
+	
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-12">
+				
+				<div class="w-50 m-auto"> <!--m-auto matrgin auto-->
+					<form action="userinfo.php" method="post">
+						<div class="form-group">
+							<label>Name</label>
+								<input type="text" name="name" autocomplete="off" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Email Id</label>
+								<input type="text" name="email" autocomplete="off" class="form-control">
+						</div>
+						<div class="form-group">
+							<label>Mobile</label>
+								<input type="text" name="mobile" autocomplete="off" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Massage</label>
+								<textarea class="form-control" required></textarea>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		
+			<div class="col-lg-6 col-md-6 col-12" >
+				
+				
+				<h5 class="text-center">Jaipur Tourist +91 8949250461</h5>  <!--padding + - py-1 to 5-->
+				<p class="text-center">bookingsjt@gmail.com <br>
+
+				<br> B/102 Crystal Plaza, New Link Road,<br>
+
+				<br> Mansarovar Jaipur <br>
+
+				<br>   Rajsthan, India- 400058 <br>
+				</p>
+				
+			
+			
+			</div>
+			
+		</div>
+	</div>
+
+</section>
+
+
+<!----About div---->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+	<p class="p-3 bg-dark text-white text-center">Copyright Jaipur Tourist  </p>
+	
+</footer>
+
+</body>
+</html>
